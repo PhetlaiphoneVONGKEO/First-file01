@@ -1,0 +1,108 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div.bg2{
+    background-color: rgb(168, 141, 233);
+    width: 960px;
+    display: flex;
+    border: 5px rgb(0, 0, 0) solid;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 100px;
+    box-shadow: 3px 10px 20px rgb(104, 101, 101);
+  
+}
+
+div.pic{
+    text-align: center;
+    height: 700px;
+    width: 350px;
+    background-color: rgb(125, 101, 230);
+    float: center;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+
+footer{
+    display: flex;
+    margin-top: 10px;
+    height: 20px;
+    width: 100px;
+    font-size: larger;
+    text-align: center;
+    text-decoration: none;
+
+}
+footer a{
+    text-decoration: none;
+    margin-top: 9px;
+}
+div.abc{
+    display: flex;
+    margin-top: 15px;
+    height: 30px;
+    width: 120px;
+    background-color: rgb(205, 215, 221);
+    text-align: center;
+    font-size: large;
+    justify-content: center;
+    margin-right: 5px;
+    border-radius: 4px;
+    color: azure;
+    
+}
+div.abc a{
+    text-decoration: none;
+    margin-top: 3px;
+}
+aside{
+    width: 300px;
+    height: 300px;
+    float: center;
+    margin-top: 200px;
+    margin-left: 100px;
+    border: 3px white solid;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+aside {
+    font-size: 20px;
+}
+
+aside input {
+    height: 30px;
+    background: transparent;
+    color: azure;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 3px white solid;
+}
+aside .form-floating input{
+    width: 240px;
+}
+::placeholder{
+    color: aliceblue;
+}
+
+.log{
+    width: 240px;
+    height: 40px;
+    background: #E2DEBF;
+    border: none;
+    
+    font-size: 18px;
+    border-radius: 10px;
+    cursor:pointer;
+    color: rgb(22, 20, 20);
+    transition: 0.4s ease;
+}

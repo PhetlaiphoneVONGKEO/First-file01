@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+
+html,
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.button{
+    float: right;
+    margin: 0;
+    border: 1px blue solid;
+    padding: 0.2em;
+}
