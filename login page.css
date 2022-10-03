@@ -87,8 +87,12 @@ aside input {
     border-right: 0;
     border-bottom: 3px white solid;
 }
-aside .form-floating input{
+aside .form-floating input.form-control{
     width: 240px;
+}
+aside .form-floating input.form-box{
+    width: 15px;
+    
 }
 ::placeholder{
     color: aliceblue;
